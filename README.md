@@ -79,9 +79,3 @@ dotnet ef migrations add Inicial            # gera a migration a partir das clas
 dotnet ef database update                   # aplica no banco
 ```
 
-## Origem
-Os códigos das pastas `03-ListaExercicio/Exe06a`, `Exe06b`, `04-Ecommerce-API-Aula` e `07-Ecommerce-API-Aula-EF` são os do repositório da
-disciplina ([dideconto/2026-desenvolvimento-software-visual-segunda](https://github.com/dideconto/2026-desenvolvimento-software-visual-segunda)).
-O resto (projetos 01, 02, 05, 06, os extras e a documentação) é material complementar de estudo.
-O arquivo `Ecommerce.db` do professor não foi copiado: ele é recriado com `dotnet ef database update`.
-Todos os projetos foram compilados e as APIs testadas endpoint por endpoint com o .NET 8.
